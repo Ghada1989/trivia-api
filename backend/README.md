@@ -202,7 +202,8 @@ One note before you delve into your tasks: for each endpoint you are expected to
   ], 
   "success": true, 
   "total_questions": 19
-}```
+}
+```
 
 **URL** `` /questions/<int:question_id>``
 
@@ -291,7 +292,8 @@ One note before you delve into your tasks: for each endpoint you are expected to
   ], 
   "success": true, 
   "total_questions": 18
-}```
+}
+```
 
  
 **URL** `` /questions``
@@ -496,7 +498,8 @@ One note before you delve into your tasks: for each endpoint you are expected to
       "type":2,
       "id":"1"
    }
-}```
+}
+```
 
 - Returns: 
 
@@ -509,7 +512,8 @@ One note before you delve into your tasks: for each endpoint you are expected to
     "question": "What is the heaviest organ in the human body?"
   }, 
   "success": true
-}```
+}
+```
 
 
 
