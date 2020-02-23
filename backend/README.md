@@ -520,7 +520,17 @@ One note before you delve into your tasks: for each endpoint you are expected to
 ---
 
  
-##Errors Response
+## Errors Response
+
+
+**Code:** 400 BAD REQUEST
+```json
+{
+    "success": False, 
+     "error": 400,
+     "message": "bad request"
+}
+```
 
 **Code:** 404 NOT FOUND 
 ```json
@@ -539,6 +549,14 @@ One note before you delve into your tasks: for each endpoint you are expected to
     "success": False, 
      "error": 422,
      "message": "unprocessable"
+}
+```
+**Code:** 500 INTERNAL SERVER ERROR
+```json
+{
+    "success": False, 
+     "error": 500,
+     "message": "internal server error"
 }
 ```
 
