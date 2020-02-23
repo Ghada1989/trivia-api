@@ -541,7 +541,6 @@ One note before you delve into your tasks: for each endpoint you are expected to
 }
 ```
 
----
 
 **Code:** 422 UNPROCESSABLE ENTITY
 ```json
